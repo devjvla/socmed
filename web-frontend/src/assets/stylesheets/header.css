@@ -1,0 +1,27 @@
+#header {
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    color: royalblue;
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+}
+
+#header > #user_container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+#header > #user_container > img {
+    border-radius: 50px;
+    height: 32px;
+    margin-right: 8px;
+    width: 32px;
+}
+
+#header > #user_container > p {
+    color: rgb(26, 26, 26);
+    font-weight: 600;
+}
